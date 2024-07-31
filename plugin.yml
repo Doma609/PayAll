@@ -1,0 +1,13 @@
+name: PayAll
+author: Doma
+version: 1.0.0
+api: 5.0.0
+main: Doma\PayAll\Main
+website: https://Github.com/Doma609
+commands:
+  payall:
+    description: pay money to all players in server
+    permission: pay.all
+permissions:
+  pay.all:
+    default: true
